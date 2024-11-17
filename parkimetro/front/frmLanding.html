@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Bienvenida</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+        <!-- Pantalla de Bienvenida -->
+        <div class="container screen active" id="welcome-screen">
+            <header>
+                <h1 class="bienvenido">BIENVENIDO</h1>
+                <p id="welcome-message-name-display">Hola Crack</p>
+                <p class="mensaje">Desde esta app puedes manejar tu estadía en el Parking LOS CAPUCHINOS</p>
+            </header>
+
+            <div class="slider-indicators">
+                <button class="circle-menus-display" id="circle-menu-dash-derecha"></button>
+                <button onclick="getMenus()" class="circle-menus-display" id="circle-menu-dash-izquierda"></button>
+            </div>
+
+            <main>
+                <div class="image-container">
+                    <img src="images/manwithcup.png" alt="Imagen">
+                </div>
+                <button class="reserva-button">NUEVA RESERVA</button>
+            </main>
+
+            <footer>
+
+            </footer>
+        </div>
+        <script src="script.js" defer></script>
+</body>
+</html>
